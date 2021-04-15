@@ -137,6 +137,9 @@ try:
         if '--generationType' in sys.argv:
             gentype = sys.argv.index('--generationType')
             checkmultiple(int(sys.argv[2]), sys.argv[gentype + 1])
+except KeyboardInterrupt:
+    print(Fore.BLUE + 'Tool created by connordechart on github. Quitting...')
+    exit(-3)
 except Exception as e:
     print(f''' 
 {e}
@@ -150,8 +153,6 @@ Optional args:
     --save-to-file - save all valid names to a .txt file
     --random-header - random headers, reduces the chance of getting rate limited
     ''')                   
-except KeyboardInterrupt:
-    print(Fore.BLUE + 'Tool created by connordechart on github. Quitting...')
 
 
 if __name__ == '__main__': 
