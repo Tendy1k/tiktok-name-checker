@@ -14,6 +14,6 @@ Python requirements:
   - Colorama - ``pip install colorama``
 
 Optional args:
-    --ignore-invalid - ignores invalid names
-    --save-to-file - save all valid names to a .txt file
-    --random-header - random headers, reduces the chance of getting rate limited
+   - --ignore-invalid - ignores invalid names
+   - --save-to-file - save all valid names to a .txt file
+   - --random-header - random headers, reduces the chance of getting rate limited
