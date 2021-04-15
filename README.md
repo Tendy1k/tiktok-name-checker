@@ -9,9 +9,9 @@ Example: python check.py --checkOne .dechart
 Example: python check.py --checkMultiple 4 --generationType alphabetical/random
 
 Python requirements:
-  -requests - pip install requests
-  -BeautifulSoup4 - pip install bs4
-  -colorama - pip install colorama
+  - Requests - ``pip install requests``
+  - BeautifulSoup4 - ``pip install bs4``
+  - Colorama - ``pip install colorama``
 
 Optional args:
     --ignore-invalid - ignores invalid names
