@@ -4,9 +4,9 @@ This tool verifies tiktok usernames. It's useful for sniping rare names.
 The python file and the executable are only usable in command prompt.
 Use the executable file to avoid installing python/dependencies.
 
-Usage: python check.py <method> <name/lettercount> *, <optional args>
-Example: python check.py --checkOne .dechart
-Example: python check.py --checkMultiple 4 --generationType alphabetical/random
+- Usage: python check.py <method> <name/lettercount> *, <optional args>
+- Example: python check.py --checkOne .dechart
+- Example: python check.py --checkMultiple 4 --generationType alphabetical/random
 
 Python requirements:
   - Requests - ``pip install requests``
